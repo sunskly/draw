@@ -1,9 +1,125 @@
-<mxfile host="app.diagrams.net" modified="2021-01-11T06:00:15.165Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="hgxGJFA6rTnCydpOGjWu" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T06:17:03.911Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="9ftwrj97XBAh7RUvtgh9" version="14.1.8" type="github">
   <diagram id="4rClrvj6ogBAT9R0rAV-" name="第 1 页">
-    <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-1" value="tb" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-9" value="获取登录用户信息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N4Brl2GiKz2lSjcMU-Wm-1" target="N4Brl2GiKz2lSjcMU-Wm-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="120" as="sourcePoint" />
+            <mxPoint x="120" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-2" value="通用组件" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-16" value="发送人和发消息者用户凭证校验" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="N4Brl2GiKz2lSjcMU-Wm-2" target="N4Brl2GiKz2lSjcMU-Wm-2">
+          <mxGeometry x="0.1215" width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="240" as="sourcePoint" />
+            <mxPoint x="100" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="240" />
+              <mxPoint x="100" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-17" value="发送人和接收人加密，消息体" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N4Brl2GiKz2lSjcMU-Wm-2" target="N4Brl2GiKz2lSjcMU-Wm-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="320" as="sourcePoint" />
+            <mxPoint x="120" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-3" value="开放平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-18" value="发送人及接收人校验，发送消息入队列" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="N4Brl2GiKz2lSjcMU-Wm-3" target="N4Brl2GiKz2lSjcMU-Wm-3">
+          <mxGeometry x="0.0499" width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="360" as="sourcePoint" />
+            <mxPoint x="90" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="360" />
+              <mxPoint x="120" y="390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-4" value="云信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-22" value="发送消息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N4Brl2GiKz2lSjcMU-Wm-4" target="N4Brl2GiKz2lSjcMU-Wm-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="560" as="sourcePoint" />
+            <mxPoint x="120" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-5" value="yach 客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-6" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="80" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-7" value="登录 tb" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="N4Brl2GiKz2lSjcMU-Wm-6" target="N4Brl2GiKz2lSjcMU-Wm-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="40" y="80" as="sourcePoint" />
+            <mxPoint x="120" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-10" value="返回用户信息（新增用户发送消息凭证）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="N4Brl2GiKz2lSjcMU-Wm-2" target="N4Brl2GiKz2lSjcMU-Wm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="200" as="sourcePoint" />
+            <mxPoint x="400" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="200" />
+              <mxPoint x="330" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-13" value="发送人，接收人，消息体，发消息者用户凭证" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="N4Brl2GiKz2lSjcMU-Wm-1" target="N4Brl2GiKz2lSjcMU-Wm-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="280" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-19" value="发送成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="N4Brl2GiKz2lSjcMU-Wm-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="480" as="sourcePoint" />
+            <mxPoint x="600" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-20" value="发送成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="N4Brl2GiKz2lSjcMU-Wm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="520" as="sourcePoint" />
+            <mxPoint x="400" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-21" value="发送消息" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" source="N4Brl2GiKz2lSjcMU-Wm-3" target="N4Brl2GiKz2lSjcMU-Wm-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="690" y="560" as="sourcePoint" />
+            <mxPoint x="770" y="560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-23" value="发送成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="N4Brl2GiKz2lSjcMU-Wm-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="640" as="sourcePoint" />
+            <mxPoint x="760" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N4Brl2GiKz2lSjcMU-Wm-24" value="发送成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="N4Brl2GiKz2lSjcMU-Wm-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="560" as="sourcePoint" />
+            <mxPoint x="200" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
