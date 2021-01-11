@@ -1,73 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-01-04T09:52:11.945Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Uz06b8zkfT_atGQD1vDQ" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-11T06:00:15.165Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="hgxGJFA6rTnCydpOGjWu" version="14.1.8" type="github">
   <diagram id="4rClrvj6ogBAT9R0rAV-" name="第 1 页">
-    <mxGraphModel dx="1666" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-1" value="tb 前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="80" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-2" value="发送工号，uidstr，接收人，消息体" style="html=1;verticalAlign=bottom;endArrow=block;" parent="jPs3h10D2_eLsuf1nDaU-1" target="jPs3h10D2_eLsuf1nDaU-11" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="40" y="80" as="sourcePoint" />
-            <mxPoint x="120" y="80" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-3" value="开放平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="760" y="40" width="80" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-19" value="签名及消息体验证，消息入队列" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=orthogonalEdgeStyle;" parent="jPs3h10D2_eLsuf1nDaU-3" target="jPs3h10D2_eLsuf1nDaU-3" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="40" y="160" as="sourcePoint" />
-            <mxPoint x="120" y="210" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="120" y="160" />
-              <mxPoint x="120" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-21" value="发送消息" style="html=1;verticalAlign=bottom;endArrow=block;" parent="jPs3h10D2_eLsuf1nDaU-3" target="jPs3h10D2_eLsuf1nDaU-13" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="40" y="280" as="sourcePoint" />
-            <mxPoint x="120" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-7" value="知音楼" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="40" width="80" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-11" value="tb 后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="560" y="40" width="80" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-12" value="发送工号，uidstr，接收人，消息体，app_id,签名" style="html=1;verticalAlign=bottom;endArrow=block;" parent="jPs3h10D2_eLsuf1nDaU-11" target="jPs3h10D2_eLsuf1nDaU-3" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="40" y="120" as="sourcePoint" />
-            <mxPoint x="120" y="120" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-13" value="云信" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="960" y="40" width="80" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-23" value="发送消息" style="html=1;verticalAlign=bottom;endArrow=block;" parent="jPs3h10D2_eLsuf1nDaU-13" target="jPs3h10D2_eLsuf1nDaU-7" edge="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="40" y="320" as="sourcePoint" />
-            <mxPoint x="120" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-25" value="返回成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" target="jPs3h10D2_eLsuf1nDaU-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1000" y="400" as="sourcePoint" />
-            <mxPoint x="1010" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jPs3h10D2_eLsuf1nDaU-24" value="返回成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" source="jPs3h10D2_eLsuf1nDaU-3" edge="1" target="jPs3h10D2_eLsuf1nDaU-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="300" as="sourcePoint" />
-            <mxPoint x="600" y="300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="800" y="280" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
